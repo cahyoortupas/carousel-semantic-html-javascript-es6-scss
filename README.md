@@ -5,6 +5,7 @@ Carousel Project - Semantic HTML, SCSS, and ES6 Modules
 This project implements a fully responsive carousel using semantic HTML, modular JavaScript (ES6 modules), and SCSS for styling.
 
 ### project-folder/
+```
 │
 ├── dist/                   # Compiled output for production
 │   ├── main.css            # Compiled CSS from SCSS
@@ -27,7 +28,7 @@ This project implements a fully responsive carousel using semantic HTML, modular
 ├── package.json            # Project configuration file for npm
 ├── .gitignore              # Files to ignore (e.g., node_modules)
 └── README.md               # Project documentation (this file)
-
+```
 #### How to Run the Project
 - git clone https://github.com/cahyoortupas/carousel-semantic-html-javascript-es6-scss.git
 - cd project folder 
