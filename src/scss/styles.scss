@@ -1,0 +1,109 @@
+// core scss call all parts
+
+@import 'variables';
+@import 'shape';
+@import 'layout';
+@import 'font-awesome/font-awesome';
+
+.swiper-container{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .swiper-wrapper{
+    display: flex;
+    position: relative;
+  }
+
+  .swiper-slide{
+    padding:20px;
+    min-width:250px;
+    margin:10px;
+    background-color: $third-color;
+  }
+
+  .card-header{
+    width:100%;
+    float:left;
+    color:$fourth-color;
+
+    .photo{
+        width:50px;
+        height:50px;
+        float:left;
+        img{
+            width:100%;
+        }
+    }
+    .identity{
+        width:75%;
+        float:left;
+        margin-left:10px;
+
+        .name{
+            float:left;
+            width:100%;
+            margin:0px;
+            .rate{
+                margin-left:10px
+            }
+        }
+        .title{
+            float:left;
+            font-weight:100;
+            font-size:14px;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+  }
+
+  .card-body{
+    width:100%;
+    margin-top:10px;
+    float:left;
+    color:$fourth-color;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .swiper-direction{
+    width:120px;
+    text-align:center;
+    margin:auto;
+
+    .swiper-button{
+        width: 25px;
+        height: 25px;
+        margin: auto;
+        padding: 10px;
+        border-radius: 100%;
+        border: 1px solid $third-color;
+        color:$third-color;
+        background: $transparent-color;
+    }
+
+    .swiper-button-prev{
+        float:left;
+    }
+    .swiper-button-next{
+        float:right;
+    }
+
+  }
+
+  .swiper-marker{
+    background:$linear-color;
+    position: absolute;
+    width:100%;
+    height:250px;
+    top:0px;
+    left:0px;
+    @include responsive(display, none, block);
+  }
+
+
+
+
+
+  

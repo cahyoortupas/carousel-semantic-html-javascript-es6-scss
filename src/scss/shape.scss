@@ -1,0 +1,22 @@
+// this part scss handle master shape and object
+
+.circle{
+    border-radius:100%;
+}
+
+.rounded{
+    border-radius:10px;
+}
+
+.rate{
+    font-size:14px;
+    color:$secondary-color;
+}
+
+.btn{
+    background: $transparent-color;
+    border: 1px solid $secondary-color;
+    color: $third-color;
+    padding: 5px 15px;
+    text-transform: uppercase;
+}

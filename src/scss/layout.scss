@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Recoleta';
+    src: url('fonts/Recoleta-Regular.ttf');
+}
+
+body {
+    font-family: 'Recoleta';
+    background: $primary-color;
+    color:$third-color;
+    margin-top:100px;
+}
+
+.container{
+    max-width:1024px;
+    margin:auto;
+}
+
+.center{
+    text-align:center;
+}
+
+h1{
+    font-size: 29px;
+    margin: 10px;
+}

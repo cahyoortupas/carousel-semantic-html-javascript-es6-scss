@@ -1,0 +1,23 @@
+// this part scss handle color master
+
+$primary-color: #003e33;
+$secondary-color: #dba24d;
+$third-color: #fff;
+$fourth-color: #333;
+$transparent-color: rgba(255,255,255,0.1);
+$linear-color:linear-gradient(to right, 
+          rgba(0, 62, 51, 1) 0%, 
+          rgba(0, 0, 0, 0) 20%,
+          rgba(0, 0, 0, 0) 80%,
+          rgba(0, 62, 51, 1) 100%  
+          );
+
+$light-primary: lighten($primary-color, 20%);
+$dark-primary: darken($primary-color, 20%);
+
+@mixin responsive($property,$default,$param) {
+  #{$property}: $default;
+  @media (min-width: 768px) {
+    #{$property}: $param;
+  }
+}

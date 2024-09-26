@@ -6,7 +6,7 @@
     "build:scss": "sass src/scss/styles.scss dist/main.css --no-source-map",
     "build:js": "esbuild src/js/app.js --bundle --outfile=dist/bundle.js",
     "build": "npm run build:scss && npm run build:js",
-    "dev": "npm run build && npm run serve"
+    "dev": "npm run build && live-server dist"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
   "devDependencies": {
     "esbuild": "^0.24.0",
     "sass": "^1.79.3"
+  },
+  "dependencies": {
+    "swiper": "^11.1.14"
   }
 }
